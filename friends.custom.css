@@ -2286,11 +2286,21 @@ img[class*="emoticon_emoticon_"] {
 
 .friend.awayOrSnooze .playerNameQuickAccessContainer,
 .friend.awayOrSnooze .labelHolder {
-  opacity: 0.75 !important;
+  opacity: 0.8 !important;
 }
 
 .friend.awayOrSnooze {
-  opacity: 0.75;
+  opacity: 0.8;
+  filter: none;
+}
+
+.friend.offline .playerNameQuickAccessContainer,
+.friend.offline .labelHolder {
+  opacity: 0.7 !important;
+}
+
+.friend.offline {
+  opacity: 0.7;
   filter: none;
 }
 
