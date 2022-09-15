@@ -116,6 +116,7 @@
 .groupName {
   color: rgb(var(--white85)) !important;
   font-size: 13px !important;
+  text-transform: small-caps !important;
   margin-bottom: 0px !important;
 }
 
