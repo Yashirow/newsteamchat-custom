@@ -1822,11 +1822,11 @@ background: rgba(var(--white05))!important;}*/
 }
 
 .closeButton:not([class*="chattabs_CloseButton_"]):hover {
-  background: rgb(var(--W10close_Red_h)) !important;
+  background: rgb(var(--white05)) !important;
 }
 
 .closeButton:not([class*="chattabs_CloseButton_"]):active {
-  background: rgb(var(--W10close_Red_p)) !important;
+  background: rgb(var(--white10)) !important;
 }
 
 .multiChatDialog .title-area-icon {
