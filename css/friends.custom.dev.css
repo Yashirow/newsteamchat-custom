@@ -9,7 +9,9 @@
   --clientBG: 26, 26, 26;
   --header_dark: 20, 20, 20;
   --online: 93, 178, 255;
+  --online_status: 93, 178, 255, 0.65;
   --ingame: 130, 186, 0;
+  --ingame_status: 130, 186, 0, 0.65;
   --offline: 145, 145, 145;
   --golden: 255, 255, 99;
   --scroll: 32, 32, 32;
@@ -989,7 +991,7 @@ button.DialogButton,
   a:visited,
 .ingame[class*="personanameandstatus_twoLine_"]
   [class*="personanameandstatus_richPresenceLabel_"] {
-  color: rgba(130, 186, 0, 0.7) !important;
+  color: rgba(var(--ingame_status)) !important;
 }
 
 .online [class*="personanameandstatus_richPresenceLabel_"],
@@ -1005,7 +1007,7 @@ button.DialogButton,
 .online
   [class*="personanameandstatus_gameName_"][class*="personanameandstatus_richPresenceLabel_"]
   a:visited {
-  color: rgba(93, 178, 255, 0.7) !important;
+  color: rgba(var(--online_status)) !important;
 }
 
 .ingame [class*="personanameandstatus_playerName_"] {
@@ -2040,7 +2042,7 @@ background: rgba(var(--white05))!important;}*/
 .friend.ingame
   [class*="personanameandstatus_twoLine_"]
   [class*="personanameandstatus_richPresenceLabel_"] {
-  color: rgba(130, 186, 0, 0.7) !important;
+  color: rgba(var(--ingame_status)) !important;
 }
 
 [class*="contextmenu_contextMenu_"] .compactView .avatar {
