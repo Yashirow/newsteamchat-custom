@@ -1035,7 +1035,7 @@ button.DialogButton,
   display: none !important;
 }
 .FriendChatTimeStamp.online {
-  color: #4b8fcc !important
+  color: #4b8fcc !important;
 }
 
 .FriendChatSpeaker .speaker.online {
