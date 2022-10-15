@@ -989,7 +989,7 @@ button.DialogButton,
   a:visited,
 .ingame[class*="personanameandstatus_twoLine_"]
   [class*="personanameandstatus_richPresenceLabel_"] {
-  color: rgb(var(--ingame)) !important;
+  color: rgba(130, 186, 0, 0.7) !important;
 }
 
 .online [class*="personanameandstatus_richPresenceLabel_"],
@@ -1005,7 +1005,7 @@ button.DialogButton,
 .online
   [class*="personanameandstatus_gameName_"][class*="personanameandstatus_richPresenceLabel_"]
   a:visited {
-  color: rgb(var(--online)) !important;
+  color: rgba(93, 178, 255, 0.7) !important;
 }
 
 .ingame [class*="personanameandstatus_playerName_"] {
@@ -1035,7 +1035,7 @@ button.DialogButton,
   display: none !important;
 }
 .FriendChatTimeStamp.online {
-  color: #4b8fcc !important;
+  color: #4b8fcc !important
 }
 
 .FriendChatSpeaker .speaker.online {
@@ -2040,7 +2040,7 @@ background: rgba(var(--white05))!important;}*/
 .friend.ingame
   [class*="personanameandstatus_twoLine_"]
   [class*="personanameandstatus_richPresenceLabel_"] {
-  color: inherit !important;
+  color: rgba(130, 186, 0, 0.7) !important;
 }
 
 [class*="contextmenu_contextMenu_"] .compactView .avatar {
