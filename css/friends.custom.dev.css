@@ -685,6 +685,7 @@ button.DialogButton,
   background: rgb(var(--header_dark)) !important;
   padding-left: 0px !important;
   min-width: 205px !important;
+  padding-top: 28px;
 }
 
 [class*="pagedcontent_Nav_"] {
@@ -699,6 +700,7 @@ button.DialogButton,
   margin-left: 15px !important;
   margin-top: -3px !important;
   font-weight: 200 !important;
+  padding-left: 0px;
 }
 
 .DialogHeader,
@@ -707,6 +709,7 @@ button.DialogButton,
   font-size: 18px !important;
   text-transform: none !important;
   letter-spacing: 0px !important;
+  font-weight: 200 !important;
 }
 
 [class*="pagedsettings_PagedSettingsDialog_PageListItem_"],
@@ -737,6 +740,7 @@ button.DialogButton,
   [class*="pagedcontent_NavItems_"]
   [class*="pagedcontent_NavItem_"]:not([class*="pagedcontent_Active_"]):hover {
   color: rgb(140, 140, 140) !important;
+  background-color: transparent;
 }
 
 [class*="chatroomgroupsettings_LeaveButton_"] {
@@ -1803,6 +1807,10 @@ button.DialogButton.Primary:hover {
   margin-top: 0px !important;
 }
 
+.DesktopUI .title-area .title-bar-actions, .friendsui-container .title-area .title-bar-actions {
+  margin-right: 0px;
+}
+
 .title-area .title-bar-actions {
   right: 0px !important;
 }
@@ -2514,11 +2522,6 @@ img[class*="emoticon_emoticon_"] {
   border-bottom: 1px solid rgb(var(--frameBorder)) !important;
 }
 
-.title-area-icon .SVGIcon_Maximize,
-.title-area-icon .SVGIcon_Minimize {
-  margin-left: 5px !important;
-}
-
 .msg.EmojiOnly {
   line-height: 32px !important;
 }
@@ -2777,4 +2780,27 @@ body[class*="shared_common_v6_"] {
 
 [class*="bbcode_ImageModalBackground_"] {
   background: rgb(var(--clientBG));
+}
+
+.DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
+  height: 20px;
+  width: 24px;
+}
+
+.voiceSelfHeader .friend .avatarHolder .avatarStatus {
+  width: 0px;
+}
+
+.voiceSelfHeader .friend .avatarHolder {
+  width: 34px !important;
+  height: 34px !important;
+  transform: scale(1, 1) translateX(0px) !important;
+}
+
+.voiceSelfHeader .friend .avatarHolder .avatar {
+  height: calc(100% - 2px);
+}
+
+.voiceSelfDirections .friend .labelHolder {
+  min-width: 35px;
 }
