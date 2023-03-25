@@ -1615,7 +1615,7 @@ button.DialogButton.Primary:hover {
 }
 
 .speakerHoverArea {
-  pointer-events: none !important;
+  pointer-events: none;
 }
 
 .NonInlinedEmbed .SVGIcon_Hyperlink {
@@ -1818,6 +1818,22 @@ button.DialogButton.Primary:hover {
 /*Gray hover color for every title bar button
 .title-area-icon:hover{
 background: rgba(var(--white05))!important;}*/
+
+.friendsui-container .title-area-icon .SVGIcon_Minimize {
+    margin-top: -5px;
+    width: 11px;
+    height: 12px;
+}
+
+.friendsui-container .title-area-icon .SVGIcon_Maximize {
+    width: 12px;
+    height: 13px;
+}
+
+.friendsui-container .title-area-icon .SVGIcon_X_Line {
+    width: 12px;
+    height: 12px;
+}
 
 .minimizeButton:hover,
 .maximizeButton:hover,
@@ -2788,7 +2804,7 @@ body[class*="shared_common_v6_"] {
 
 .DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
   height: 20px;
-  width: 24px;
+  width: 26px;
 }
 
 .voiceSelfHeader .friend .avatarHolder .avatarStatus {
